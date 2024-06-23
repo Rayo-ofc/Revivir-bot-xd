@@ -2,6 +2,8 @@
 
 ------------------
 
+[!LOGO](https://telegra.ph/file/ff484bd2a70947468449f.jpg)
+
 ### `◉ 💟 GRUPO DEL BOT 💟`
 
 <a href="https://chat.whatsapp.com/LRQdtS7nKt89NBUPWJDjzh" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DEL_BOT_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
