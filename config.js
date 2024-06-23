@@ -7,23 +7,25 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
+//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
+//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
+global.botNumberCode = '' //Ejemplo: +59309090909
+global.confirmCode = ''
+
 global.owner = [
 ['5214437863111', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁👑', true],
-['50558124470', '𝙴𝙽𝙳𝙴𝚁𝙶𝙻',true],
-['51929972576', '𝙹𝚇𝚃𝚇𝙽17',true],
-['573012482597', '𝙾𝙵𝙲 𝙳𝙸𝙴𝙶𝙾',true],
+['50558124470', '𝙴𝙽𝙳𝙴𝚁𝙶𝙻', true],
+['51929972576', '𝙹𝚇𝚃𝚇𝙽17', true],
+['573012482597', '𝙾𝙵𝙲 𝙳𝙸𝙴𝙶𝙾', true],
 ['5217294888993'],
 ['573106040746'],
 ['51929972576'],
 ['51992004117'],
 ['5214432220783']]
 
-//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = '' //Ejemplo: +59309090909
-global.confirmCode = ''
+global.mods = [];
+global.prems = []
 
-global.prems = ['51992004127']
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
 global.titulowm = ' ᕼᗩᑕᕼIKO-ᗷOT-ᗰᗪ';
@@ -36,7 +38,6 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6= fs.readFileSync('./Menu3.png');
 global.imagen7= fs.readFileSync('./src/hjbot.jpg');
-global.mods = [];
 global.fsizedoc = '999999'
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
