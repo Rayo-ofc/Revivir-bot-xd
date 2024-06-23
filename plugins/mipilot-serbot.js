@@ -81,7 +81,7 @@ else global.conns = []
 
 let handler = async (m, { conn, args, usedPrefix, command, isOwner, isROwner }) => {
 if (!global.db.data.settings[conn.user.jid].modejadibot && isROwner) {
-m.reply('👑 Este Comando está deshabilitado por mi creador.')
+m.reply('☁️ *¡ESTE COMANDO ESTA DESACTIVADO!*')
 return
 }
 let parentw = conn
