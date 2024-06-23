@@ -94,15 +94,12 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="http://wa.me/51992004117" target="blank"><img src="https://img.shields.io/badge/HACHE_JOTA_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-## `EDITOR & PROPIETARIO DEL BOT` 
-<a href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png" width="250" height="250" alt="HACHEJOTA"/></a>
-
-## `🌟 DESARROLLADORES`
+## `🐶 DESARROLLADORES`
 <a href="https://github.com/HACHEJOTA/HachikoBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=HACHEJOTA/HachikoBot-MD" /> 
 </a>
 
-### `☄️ AGRADECIMIENTOS`
+### `🐕‍🦺 AGRADECIMIENTOS`
 <a
 href="https://github.com/BrunoSobrino"><img src="https://telegra.ph/file/ff484bd2a70947468449f.jpg" width="120" height="120" alt="Bruno"/></a>
 
