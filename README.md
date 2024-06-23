@@ -96,6 +96,18 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## `EDITOR & PROPIETARIO DEL BOT` 
 <a href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png" width="250" height="250" alt="HACHEJOTA"/></a>
+
+## `🌟 DESARROLLADORES`
+<a href="https://github.com/HACHEJOTA/HachikoBot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=HACHEJOTA/HachikoBot-MD" /> 
+</a>
+
+### `☄️ AGRADECIMIENTOS`
+[![BrunoSobrino](https://telegra.ph/file/ff484bd2a70947468449f.jpg)](https://github.com/BrunoSobrino) 
+
+### `👑 CREADOR` 
+<a
+href="https://github.com/HACHEJOTA"><img src="https://telegra.ph/file/ff484bd2a70947468449f.jpg" width="120" height="120" alt="Hachejota"/></a>
   
 `HachikoBot - By HacheJota`
 
