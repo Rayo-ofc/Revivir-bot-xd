@@ -1,34 +1,34 @@
 {
-  "name": "HachikoBot-MD",
-  "version": "1.0.0",
-  "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
-  "main": "index.js",
-  "type": "module",
-  "directories": {
-    "lib": "lib",
-    "src": "src",
-    "plugins": "plugins"
-  },
-    "scripts": {
-    "start": "node index.js",
-    "qr": "node index.js qr",
-    "code": "node index.js code",
-    "test": "node test.js",
-    "test2": "nodemon index.js", 
-    "eslint": "eslint .",
-    "eslintfix": "eslint --fix ."
-  },
-  "homepage": "https://github.com/HACHEJOTA/HachikoBot-MD",
-  "author": {
-    "name": "HACHEJOTA"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HACHEJOTA/HachikoBot-MD.git"
-  },
-  "bugs": {
-    "url": "https://github.com/HACHEJOTA/HachikoBot-MD/issues"
-  },
+"name": "HachikoBot-MD",
+"version": "1.0.7",
+"description": "Bot De WhatsApp",
+"main": "index.js",
+"type": "module",
+"directories": {
+"lib": "lib",
+"src": "src",
+"plugins": "plugins"
+},
+"scripts": {
+"start": "node index.js",
+"qr": "node index.js qr",
+"code": "node index.js code",
+"test": "node test.js",
+"test2": "nodemon index.js", 
+"eslint": "eslint .",
+"eslintfix": "eslint --fix ."
+},
+"homepage": "https://github.com/HACHEJOTA/HachikoBot-MD",
+"author": {
+"name": "HACHEJOTA"
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/HACHEJOTA/HachikoBot-MD.git"
+},
+"bugs": {
+"url": "https://github.com/HACHEJOTA/HachikoBot-MD/issues"
+},
 "license": "GPL-3.0-or-later",
 "dependencies": {
   "@adiwajshing/keyed-db": "^0.2.4",
