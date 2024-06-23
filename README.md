@@ -83,7 +83,7 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Hachiko-termux
+> cd HachikoBot-MD
 > rm -rf HachikoSession
 > npm start
 ```
