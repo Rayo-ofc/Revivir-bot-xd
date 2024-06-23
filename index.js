@@ -53,7 +53,7 @@ break
 })
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('[ ✧ ] ERROR:\n', code)
+console.error('⚙️ Error:\n', code)
 process.exit();
 if (code === 0) return
 watchFile(args[0], () => {
