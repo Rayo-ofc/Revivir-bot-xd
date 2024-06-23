@@ -103,7 +103,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 </a>
 
 ### `☄️ AGRADECIMIENTOS`
-[![BrunoSobrino](https://telegra.ph/file/ff484bd2a70947468449f.jpg width="120" height="120")](https://github.com/BrunoSobrino) 
+<a
+href="https://github.com/BrunoSobrino"><img src="https://telegra.ph/file/ff484bd2a70947468449f.jpg" width="120" height="120" alt="Bruno"/></a>
 
 ### `👑 CREADOR` 
 <a
