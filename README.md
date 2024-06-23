@@ -105,7 +105,7 @@ href="https://github.com/BrunoSobrino"><img src="https://telegra.ph/file/ff484bd
 
 ### `👑 CREADOR` 
 <a
-href="https://github.com/HACHEJOTA"><img src="https://telegra.ph/file/ff484bd2a70947468449f.jpg" width="120" height="120" alt="Hachejota"/></a>
+href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.jpg" width="120" height="120" alt="Hachejota"/></a>
   
 `HachikoBot - By HacheJota`
 
