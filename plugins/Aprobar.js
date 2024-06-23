@@ -12,12 +12,10 @@ let pp = imagen4
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let old = performance.now()
   
-  let neww = performance.now()
-  let totaljadibot = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])]
-  let speed = neww - old
+  
 
 let info = `PROBANDO BOTÓNES PERROS`
-await conn.sendButton(m.chat, info, wm, pp, [
+await conn.sendButton(m.chat, info, `xd`, pp, [
 ['XD', '#grupolista'],
 ['XD', '/play amnesia '],
 ['PRUEBA', '.menu']], null, [
@@ -28,9 +26,3 @@ handler.tags = ['test', 'au']
 handler.command = /^(au)$/i
 export default handler
 
-function clockString(ms) {
-let h = Math.floor(ms / 3600000)
-let m = Math.floor(ms / 60000) % 60
-let s = Math.floor(ms / 1000) % 60
-console.log({ms,h,m,s})
-return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')}
