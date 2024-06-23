@@ -1,4 +1,4 @@
-import os from 'os'
+/*import os from 'os'
 import util from 'util'
 import ws from 'ws';
 import sizeFormatter from 'human-readable'
@@ -24,5 +24,5 @@ await conn.sendButton(m.chat, info, `xd`, pp, [
 handler.help = ['infobot']
 handler.tags = ['test', 'au']
 handler.command = /^(au)$/i
-export default handler
+export default handler*/
 
