@@ -18,7 +18,7 @@ font: 'block',
 align: 'center',
 colors: ['white']
 })
-say(`MultiDivice`, {
+say(`MultiDevice`, {
 font: 'chrome',
 align: 'center',
 colors: ['red', 'white']
