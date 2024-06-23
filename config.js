@@ -21,7 +21,7 @@ global.owner = [
 ['51992004117'],
 ['5214432220783']]
 
-global.mods = [];
+global.mods = []
 global.prems = []
 
 global.packname = '𝗛𝗮𝗰𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🐶'
