@@ -8,9 +8,14 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['5214437863111', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁👑', true],
-  ['5217294888993'],['573106040746'],['51929972576'],['51992004117'],['5214432220783'],['50558124470', '》EnderGL《',true],['51929972576', 'Jxtxn17',true],
-];
+['5214437863111', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁👑', true],
+['50558124470', '𝙴𝙽𝙳𝙴𝚁𝙶𝙻',true],['51929972576', '𝙹𝚇𝚃𝚇𝙽17',true],
+['573012482597', '𝙾𝙵𝙲 𝙳𝙸𝙴𝙶𝙾',true],
+['5217294888993'],
+['573106040746'],
+['51929972576'],
+['51992004117'],
+['5214432220783']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
