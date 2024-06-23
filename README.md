@@ -2,7 +2,7 @@
 
 ------------------
 
-[!LOGO](https://telegra.ph/file/ff484bd2a70947468449f.jpg)
+# ![logo](https://telegra.ph/file/ff484bd2a70947468449f.jpg)
 
 ### `◉ 💟 GRUPO DEL BOT 💟`
 
