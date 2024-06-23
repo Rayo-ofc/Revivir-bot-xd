@@ -79,8 +79,8 @@ let rtx2 = `*『 SER BOT CON CÓDIGO DE 8 DÍGITOS 』*
 if (global.conns instanceof Array) console.log()
 else global.conns = []
 
-let handler = async (m, { conn, args, usedPrefix, command, isOwner, isROwner }) => {
-if (!global.db.data.settings[conn.user.jid].modejadibot && isROwner) {
+let handler = async (m, { conn, args, usedPrefix, command, isOwner, isROwner}) => {
+if (!global.db.data.settings[conn.user.jid].modejadibot && !isROwner) {
 m.reply('☁️ *¡ESTE COMANDO ESTA DESACTIVADO!*')
 return
 }
