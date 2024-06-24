@@ -11,7 +11,7 @@ handler.all = async function (m) {
       m.chat,
       `𝙲𝚁𝙴𝙰𝙳𝙾𝚁 @${hachejota} 𝚄𝙽 𝙷𝚄𝙼𝙰𝙽𝙾 𝚃𝙴 𝙰 𝙸𝙽𝚅𝙾𝙲𝙰𝙳𝙾`,fliveLoc,
       m
-    );*/ //wm, null, [['Menu', '#menu']], m) botones :V
+    );
   }
   return !0;
 };
