@@ -107,7 +107,7 @@ href="https://github.com/BrunoSobrino"><img src="https://telegra.ph/file/ff484bd
 <a
 href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png" width="120" height="120" alt="Hachejota"/></a>
 
-[![HachikoBotLite-MD](https://github.com/OfcDiego/HachikoBotLite-MD)]
+[![HachikoBotLite-MD](https://github.com/OfcDiego.png)(https://github.com/OfcDiego/HachikoBotLite-MD)]
   
 `HachikoBot - By HacheJota`
 
