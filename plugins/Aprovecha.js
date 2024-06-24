@@ -14,7 +14,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         let gasIn = await fetch(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
         let jisin = await gasIn.json()
         let stiker = await sticker(false, "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + jisin.result.file_path, global.packname, global.author)
-        await conn.sendFile(m.chat, stiker, null, { asSticker: true }, false, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: botname, body: `h`, mediaType: 2, sourceUrl: linkgc, thumbnail: miniurl}}}, { quoted: m })  
+        await conn.sendFile(m.chat, stiker, null, { asSticker: true }, false, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `h`, mediaType: 2, sourceUrl: md, thumbnail: imagen1}}}, { quoted: m })  
         await delay(5000)
     }
     throw `*Listooooo!!⚘*`
