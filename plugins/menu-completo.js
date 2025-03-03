@@ -1,25 +1,32 @@
-//import db from '../lib/database.js'
 import { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
-//import { plugins } from '../lib/plugins.js'
+
 let tags = {
-/*  'main': 'I N F O R M A C I Ó N ',
-  'group': 'G R U P O S',
-  'game': 'J U E G O S',
-  'dl': ' D E S C A R G A S',
-  'jadibot': 'J A D I B O T', 
-  'nable': 'E N A B L E / D I S A B L E', 
-  'internet': 'B U S C A D O R E S',
-  'convertido': 'C O N V E R T I D O R E S', 
-  'sticker': 'S T I C K E R',
-  'rg': 'R P G',
-  'audio': 'A U D I O S   E F E C T O S', 
-  'tools': 'H E R R A M I E N T A S', 
-  'anime': 'A N I M E', 
-  'nsfw': 'N S F W +18', 
-  'owner': 'O W N E R', */
+  'main': '🄸🄽🄵🄾×🄱🄾🅃',
+  'buscador': '🄱🅄🅂🄲🄰🄳🄾🅁🄴🅂',
+  'fun': '🄹🅄🄴🄶🄾🅂',
+  'jadibot': '🅂🄴🅁🄱🄾🅃',
+  'rpg': '×🅁×🄿×🄶×',
+  'rg': '🅁🄴🄶🄸🅂🅃🅁🄾',
+  'xp': '×🄴×🅇×🄿×',
+  'sticker': '🅂🅃🄸🄲🄺🄴🅁🅂',
+  'anime': '🄰🄽🄸🄼🄴🅂',
+  'database': '🄳🄰🅃🄰🄱🄰🅂🄴',
+  'fix': '🄵🄸🅇🄼🄴🄽🅂🄰🄹🄴',
+  'grupo': '🄶🅁🅄🄿🄾🅂',
+  'nable': '🄾🄽 / 🄾🄵🄵', 
+  'descargas': '🄳🄴🅂🄲🄰🅁🄶🄰🅂',
+  'youtube': '🅈🄾🅄🅃🅄🄱🄴',
+  'tools': '🄷🄴🅁🅁🄰🄼🄸🄴🄽🅃🄰🅂',
+  'info': '🄸🄽🄵🄾🅁🄼🄰🄲🄸🄾́🄽',
+  'nsfw': '🄽🅂🄵🅆', 
+  'owner': '🄲🅁🄴🄰🄳🄾🅁', 
+  'mods': '🅂🅃🄰🄵🄵',
+  'audio': '🄰🅄🄳🄸🄾🅂', 
+  'ai': '×🄰×🄸×',
+  'transformador': '🄲🄾🄽🅅🄴🅁🅃🄸🄳🄾🅁🄴🅂',
 }
 const defaultMenu = {
   before: `┏━━━━━━━━━━━━━━━━━━┓
