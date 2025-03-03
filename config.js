@@ -44,7 +44,7 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = 'HacheJota 
+global.dev = 'HacheJota'
 global.devnum = '+52443786311'
 
 // Diseños 
