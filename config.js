@@ -31,8 +31,8 @@ global.prems = []
 global.isdev = [['52443786311'], [''], [''], [''], [''], ['']]
 
 //Aqui encuentras los nombres del bot 
-global.packname = 'HachikoBot-MD 
-global.author = 'HacheJota 
+global.packname = 'HachikoBot-MD'
+global.author = 'HacheJota'
 global.wm = 'HachikoBot-MD | HacheJota'
 global.wm2 = 'HachikoBot-MD'
 global.des = 'HachikoBot-MD'
