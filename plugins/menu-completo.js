@@ -207,7 +207,7 @@ await conn.sendMessage(
   { quoted: fkontak })
 
   } catch (e) {
-    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, rcanal, )
+    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m)
     throw e
   }
 }
@@ -217,43 +217,3 @@ handler.command = ['menu', 'menú', 'help']
 handler.register = false
 
 export default handler
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-
-function clockString(ms) {
-  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-}
-
-  var ase = new Date();
-  var hour = ase.getHours();
-switch(hour){
-  case 0: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
-  case 1: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 💤'; break;
-  case 2: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🦉'; break;
-  case 3: hour = 'Bᴜᴇɴᴏs Dɪᴀs ✨'; break;
-  case 4: hour = 'Bᴜᴇɴᴏs Dɪᴀs 💫'; break;
-  case 5: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌅'; break;
-  case 6: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌄'; break;
-  case 7: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌅'; break;
-  case 8: hour = 'Bᴜᴇɴᴏs Dɪᴀs 💫'; break;
-  case 9: hour = 'Bᴜᴇɴᴏs Dɪᴀs ✨'; break;
-  case 10: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌞'; break;
-  case 11: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌨'; break;
-  case 12: hour = 'Bᴜᴇɴᴏs Dɪᴀs ❄'; break;
-  case 13: hour = 'Bᴜᴇɴᴏs Dɪᴀs 🌤'; break;
-  case 14: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌇'; break;
-  case 15: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🥀'; break;
-  case 16: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌹'; break;
-  case 17: hour = 'Bᴜᴇɴᴀs Tᴀʀᴅᴇs 🌆'; break;
-  case 18: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
-  case 19: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
-  case 20: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌌'; break;
-  case 21: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
-  case 22: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break;
-  case 23: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break;
-}
-  var greeting = hour;
