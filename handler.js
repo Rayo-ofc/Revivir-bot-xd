@@ -7,13 +7,13 @@ import { unwatchFile, watchFile } from 'fs'
 import chalk from 'chalk'
 import fs from 'fs'
 import moment from 'moment-timezone'
-
+ 
 const { proto } = (await import('@whiskeysockets/baileys')).default
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function () {
 clearTimeout(this)
 resolve()}, ms))
-
+ 
 export async function handler(chatUpdate) {
 this.msgqueque = this.msgqueque || []
 this.uptime = this.uptime || Date.now()
@@ -56,7 +56,7 @@ if (!isNumber(user.cat)) user.cat = 0
 if (!isNumber(user.dog)) user.dog = 0
 if (!isNumber(user.fox)) user.fox = 0
 if (!('registered' in user)) user.registered = false
-
+ 
 // Registro de usuario
 if (!user.registered) {
 if (!('name' in user)) user.name = m.name
@@ -142,7 +142,7 @@ progression: null,
 step: null,
 soal: null,
 }} 
-
+	
 let chat = global.db.data.chats[m.chat]
 if (typeof chat !== 'object')
 global.db.data.chats[m.chat] = {}
@@ -171,7 +171,7 @@ if (!('game' in chat)) chat.game = true
 if (!isNumber(chat.expired))
 chat.expired = 0
 } else
-
+            
 global.db.data.chats[m.chat] = {
 isBanned: false,
 welcome: true,
@@ -415,7 +415,7 @@ let data = (await conn.onWhatsApp(jid))[0] || {}
 let res = await conn.groupAcceptInvite(global.nna2)
 if (data.exists) //Reporte enviado al grupo
 await conn.reply(res, `*⚠️ COMANDO FALLANDO ⚠️*\n\n*📑 PLUGIN :* ${m.plugin}\n*👤 USUARIO :* ${m.sender}\n*🚀 COMANDO :* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n`)
-
+ 
  m.reply(`*⚠️ COMANDO FALLANDO ⚠️*\n\n*📑 PLUGIN :* ${m.plugin}\n*👤 USUARIO :* ${m.sender}\n*🚀 COMANDO :* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n`.trim(), data.jid)
 }
 m.reply(text)
@@ -630,12 +630,12 @@ watchFile(file, async () => {
   unwatchFile(file);
   console.log(chalk.redBright('Update \'handler.js\''));
   if (global.reloadHandler) console.log(await global.reloadHandler());
-
+  
   if (global.conns && global.conns.length > 0 ) {
     const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
     for (const userr of users) {
       userr.subreloadHandler(false)
     }
   }
-
+  
 });
