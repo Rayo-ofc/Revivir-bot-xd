@@ -23,19 +23,19 @@ global.owner = [
 global.botNumberCode = '' //Ejemplo: +59309090909
 global.confirmCode = ''
 
-global.suittag = ['5214531287294']
+global.suittag = ['52443786311']
 global.mods = []
 global.prems = []
 
 //Solo desarrolladores aprobados
-global.isdev = [['542215034412'], ['593968263524'], ['573012482597'], ['5492215034412'], ['5214434703586'], ['595976126756']]
+global.isdev = [['52443786311'], [''], [''], [''], [''], ['']]
 
 //Aqui encuentras los nombres del bot 
-global.packname = 'ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ ✨'
-global.author = 'ɢᴀᴛᴀ ᴅɪᴏs 🫶'
-global.wm = 'ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ | ɢᴀᴛᴀ ᴅɪᴏs 🫶'
-global.wm2 = '                   ʏᴀʀᴛᴇx ʙᴏᴛ ᴍᴅ ✨\n> *♡º°‘¨ һᥱᥴһ᥆ ⍴᥆r 𝖿ᥲᥒs ⍴ᥲrᥲ 𝖿ᥲᥒs ¨‘°º♡*'
-global.des = 'һᥱᥴһ᥆ ⍴᥆r 𝖿ᥲᥒs ⍴ᥲrᥲ 𝖿ᥲᥒs.'
+global.packname = 'HachikoBot-MD 
+global.author = 'HacheJota 
+global.wm = 'HachikoBot-MD | HacheJota'
+global.wm2 = 'HachikoBot-MD'
+global.des = 'HachikoBot-MD'
 
 
 //Las Versiones Y Entre Otros
@@ -44,8 +44,8 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = 'GataNina-Li'
-global.devnum = '+593 96 826 3524'
+global.dev = 'HacheJota 
+global.devnum = '+52443786311'
 
 // Diseños 
 global.dis = ':⁖֟⊱┈֟፝❥ '
